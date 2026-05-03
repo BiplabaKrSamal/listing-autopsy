@@ -1,0 +1,21 @@
+# Listing Autopsy — Python dependencies
+# Install: pip install -r requirements.txt
+# Python 3.10+ required
+
+# Anthropic Claude API client
+anthropic>=0.25.0
+
+# HTTP requests (Wayback Machine CDX, Keepa, snapshot fetching)
+requests>=2.31.0
+
+# HTML parsing for Amazon listing snapshots
+beautifulsoup4>=4.12.0
+
+# lxml parser (faster than html.parser for BeautifulSoup)
+lxml>=5.0.0
+
+# Flask web server for app.py
+flask>=3.0.0
+
+# .env file support (API key management)
+python-dotenv>=1.0.0
